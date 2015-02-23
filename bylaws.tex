@@ -8,8 +8,8 @@
 \usepackage{fancyhdr}
 \usepackage[tocindentauto]{tocstyle}
 
-\renewcommand{\thesection}{\Roman{section}}
-\renewcommand \thesubsection{\roman{subsection}}
+\renewcommand{\thesection}{Article \Roman{section}.}
+\renewcommand \thesubsection{Section \roman{subsection}.}
 
 \newenvironment{li}{
 \begin{enumerate}
@@ -49,7 +49,8 @@ Current Status: Submitted. Approved by Core Body. Adopted by Davis CS Club.
 \pagebreak
 
 \tableofcontents
-\newpage
+
+\pagebreak
 
 \singlespacing
 \sectionfont{\Large}
